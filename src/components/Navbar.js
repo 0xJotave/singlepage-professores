@@ -14,8 +14,8 @@ const Navbar = ({ setPagina, paginaAtiva }) => {
     <nav className="navbar">
       <NavLink id="home" label="Início" />
       <NavLink id="prof1" label="Prof. Rodolfo" />
-      <NavLink id="prof2" label="Prof. Maria" />
-      <NavLink id="prof3" label="Prof. João" />
+      <NavLink id="prof2" label="Prof. Hugo" />
+      <NavLink id="prof3" label="Prof. André" />
     </nav>
   );
 };

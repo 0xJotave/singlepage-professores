@@ -10,20 +10,24 @@ function App() {
   const professores = {
     prof1: {
       nome: "Rodolfo Bolconte",
-      disciplinas: [
-        { nome: "Desenvolvimento Web", curso: "ADS", semestre: 5 },
-        { nome: "Sistemas Operacionais", curso: "ADS", semestre: 3 },
-      ],
+      disciplinas: [{ nome: "Desenvolvimento Web", curso: "ADS", semestre: 5 }],
     },
     prof2: {
-      nome: "Dra. Maria Souza",
+      nome: "Hugo Feitosa de Figueirêdo",
       disciplinas: [
-        { nome: "Engenharia de Software", curso: "ADS", semestre: 4 },
+        { nome: "Banco de Dados I", curso: "ADS", semestre: 3 },
+        { nome: "Projeto de Software I", curso: "ADS", semestre: 5 },
       ],
     },
     prof3: {
-      nome: "Me. João Silva",
-      disciplinas: [{ nome: "Banco de Dados II", curso: "GTI", semestre: 2 }],
+      nome: "André Atanásio Maranhão Almeida",
+      disciplinas: [
+        {
+          nome: "Programação de Dispositivos Móveis",
+          curso: "ADS",
+          semestre: 5,
+        },
+      ],
     },
   };
 
